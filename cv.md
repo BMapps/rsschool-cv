@@ -47,11 +47,11 @@ Unfortunately I have no professional software development experience, but you ca
 
 ### Education 
 
-Vinnytsia National Technical University 2013-2019
-
-    Faculty of Automation and computer integration technology
-    
-    Masters Degree in System Engineering
+```
+    Vinnytsia National Technical University 2013-2019
+        Faculty of Automation and computer integration technology
+        Masters Degree in System Engineering
+```
 
 ##### Courses: 
     - Codeacademy 

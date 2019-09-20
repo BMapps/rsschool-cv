@@ -42,12 +42,15 @@
 
 Unfortunately I have no professional software development experience, but you can found some examples of code by the links: 
 -[Some ralisations of Love Triangles task on Java](https://github.com/BMapps/BM_repository/blob/second/src/LoveTriangles.java)
+
 -[Macro on Excel VBA for parsing manufacturing confuguration files]()
 
 ### Education 
 
-Vinnytsia National Technical University 2013-2019 
+Vinnytsia National Technical University 2013-2019
+
     Faculty of Automation and computer integration technology
+    
     Masters Degree in System Engineering
 
 ##### Courses: 
@@ -62,7 +65,9 @@ Vinnytsia National Technical University 2013-2019
 ### English 
     - Every day work mailing
     - Regular communication with engineering team of our customer from Israel(non native speaker)
-    - Real meetings with customer and successfull communication in official themes and evening meetings in restaurant(some )
+    - Real meetings with customer and successfull communication in official themes and evening meetings in restaurant(some non-formal themes).
+
+
 
    
 

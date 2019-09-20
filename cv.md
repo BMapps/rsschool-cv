@@ -20,7 +20,7 @@
 
  ##### Java
  ``` 
- // part of realisation of LoveTriangles
+ // part of realization of LoveTriangles
  //recursed method
     static int nextLover(Integer[] array, int firstLover, int nextLover) {
 
@@ -41,9 +41,10 @@
 ### Experience 
 
 Unfortunately I have no professional software development experience, but you can found some examples of code by the links: 
--[Some ralisations of Love Triangles task on Java](https://github.com/BMapps/BM_repository/blob/second/src/LoveTriangles.java)
 
--[Macro on Excel VBA for parsing manufacturing confuguration files]()
+-[Some realisations of Love Triangles task on Java](https://github.com/BMapps/BM_repository/blob/second/src/LoveTriangles.java)
+
+-[Macro on Excel VBA for parsing manufacturing configuration files](https://github.com/BMapps/BM_repository/tree/second/Setups%20macro)
 
 ### Education 
 

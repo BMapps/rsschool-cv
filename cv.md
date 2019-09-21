@@ -5,20 +5,20 @@
 - E-mail: mihael.09k@gmail.com 
 - cell: +380938847279 
  
- ### Summary/Soft skills
+### Summary/Soft skills
 
  I'm working as industrial engineer for Jabil Ukraine about 2 years. I'm very persistent, fast-learning  and can easily join the team. I'm skilled in prioritizing and managing multiple tasks simultaneously on everyday work and all these skills were already demonstrated and improved on my current work. 
  
- ### Hard skills
+### Hard skills
 
  Self-experience in Java Core. Some knowledges in VBA in Excel(used for ease my everyday tasks within my current work), and HTML/CSS.
- ###### Version control: GitHub(low level)
- ###### Tools: Intellij IDEA, Eclipse, Visual Studio Code
+###### Version control: GitHub(low level)
+###### Tools: Intellij IDEA, Eclipse, Visual Studio Code
 
 
- ### CodeExamples:
+### CodeExamples:
 
- ##### Java
+##### Java
  ``` 
  // part of realization of LoveTriangles
  //recursed method

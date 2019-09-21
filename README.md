@@ -1,1 +1,1 @@
-# rsschool-cv
+https://bmapps.github.io/rsschool-cv/cv

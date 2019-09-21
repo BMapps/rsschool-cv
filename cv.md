@@ -42,7 +42,7 @@
 
 Unfortunately I have no professional software development experience, but you can found some examples of code by the links: 
 
--[Some realisations of Love Triangles task on Java](https://github.com/BMapps/BM_repository/blob/second/src/LoveTriangles.java)
+-[Some realizations of Love Triangles task on Java](https://github.com/BMapps/BM_repository/blob/second/src/LoveTriangles.java)
 
 -[Macro on Excel VBA for parsing manufacturing configuration files](https://github.com/BMapps/BM_repository/tree/second/Setups%20macro)
 
@@ -57,7 +57,7 @@ Unfortunately I have no professional software development experience, but you ca
 ##### Courses: 
     - Codeacademy 
     - Htmlacademy 
-    - Lean Six Sigma Bronze Sertification
+    - Lean Six Sigma Bronze Certification
     - Educational courses within Jabil Ukraine:
         - English lessons
         - Team work/ Team leading
@@ -66,7 +66,7 @@ Unfortunately I have no professional software development experience, but you ca
 ### English 
     - Every day work mailing
     - Regular communication with engineering team of our customer from Israel(non native speaker)
-    - Real meetings with customer and successfull communication in official themes and evening meetings in restaurant(some non-formal themes).
+    - Real meetings with customer and successful communication in official themes and evening meetings in restaurant(some non-formal themes).
 
 
 

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <img class="my-photo" src="https://imgur.com/FvFnNwB.png"  alt="MyPhoto" width="400" height="351">
+    <h1 class="name"> Mykhailo Bezditnyi</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#contact-info">Contact info</a></li>
+      <li><a href="#summary">Summary/Soft skills</a></li>
+      <li><a href="#hard-skills">Hard skills</a></li>
+      <li><a href="#code-examples">Code Examples</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#english">English</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="contact-info">
+      <h2 >Contact info</h2>
+      <div>
+        <ul>
+          <li>E-mail: mihael.09k@gmail.com</li>
+          <li>cell: +380938847279 </li>
+        </ul>
+      </div>
+    </section>
+    <section id="summary">
+      <h2>Summary/Soft skills</h2>
+      <div>I'm working as industrial engineer for Jabil Ukraine about 2 years.
+        I'm very persistent, fast-learning  and can easily join the team.
+        I'm skilled in prioritizing and managing multiple tasks simultaneously on everyday
+        work and all these skills were already demonstrated and improved on my current work.</div>
+    </section>
+    <section id="hard-skills">
+      <h2>Hard skills</h2>
+      <div>Self-experience in Java Core. Some knowledges in VBA in Excel(used for ease my
+        everyday tasks within my current work), and HTML/CSS.
+        <div><strong>Version control:  </strong>GitHub</div>
+        <div><strong>Tools:  </strong>Intellij IDEA, Eclipse, Visual Studio Code</div>
+    </div>
+    </section>
+    <section id="code-examples">
+      <h2>Code Examples</h2>
+      <div>
+        <h3>Java</h3>
+        <pre>
+        <code>  // part of realization of LoveTriangles
+          //recursed method
+          static int nextLover(Integer[] array, int firstLover, int nextLover) {
+            int x = array[nextLover]; //save next-next lover
+            array[nextLover] = -1;    // set next-Lover -1 to prevent double count
+
+            //step into( to next-next lover
+            if (x != firstLover) {
+              if (x>-1)
+                return nextLover(array, firstLover, x)+1;
+              else
+                return 2;
+            }
+            return 1;
+          }</code></pre>
+      </div>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <div>Unfortunately I have no professional software development experience, but you can
+        found some examples of code by the links:
+        <ul>
+          <li><a href="https://github.com/BMapps/BM_repository/blob/second/src/LoveTriangles.java">
+            Some realizations of Love Triangles task on Java</a></li>
+          <li><a href="https://github.com/BMapps/BM_repository/tree/second/Setups%20macro">
+            Macro on Excel VBA for parsing manufacturing configuration files</a></li>
+        </ul>
+      </div>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <div>Vinnytsia National Technical University 2013-2019
+          <ul class="without-points">
+            <li>Faculty of Automation and computer integration technology</li>
+            <li>Masters Degree in System Engineering</li>
+          </ul>
+
+        <h3>Courses</h3>
+          <ul>
+            <li>Codeacademy</li>
+            <li>Htmlacademy</li>
+            <li>Educational courses within Jabil Ukraine:
+              <ul>
+                <li>English lessons</li>
+                <li>Team work/ Team leading</li>
+                <li>Oratory skills</li>
+                <li>Lean Six Sigma Bronze Certification</li>
+              </ul>
+            </li>
+          </ul>
+
+      </div>
+    </section>
+    <section id="english">
+      <h2>English</h2>
+      <div>
+        <ul>
+          <li>Every day work mailing</li>
+          <li>Regular communication with engineering team of our customer from
+            Israel(non native speaker)</li>
+          <li>Real meetings with customer and successful communication in official themes and
+            evening meetings in restaurant(some non-formal themes).</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,192 @@
+body {
+    width: 1024px;
+    margin: 0 auto;
+  }
+ header {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+  }
+
+  .name{
+    margin: 50px auto;
+    font-size: 60px;
+    color: darkblue;
+    font-family: "Helvetica", "Georgia", "sans-serif";
+  }
+
+  .expand--button{
+    background-color: rgb(186, 236, 238);
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    margin:0;
+
+    &:hover, &.active {
+      background-color: rgb(186, 186, 238);
+
+    }
+  }
+  .education_content{
+    display: none;
+
+  }
+
+  .section_projects{
+    display: flex;
+    height: 500px;
+    align-items: center;
+  }
+  .slider_left{
+    background-image: url( assets/projects/theyalow/assets/images/left_slider.svg);
+    background-size: cover;
+    padding: 0;
+    border: 0;
+    width: 5%;
+    height: 15%;
+    margin: 0 2.5%;
+    z-index:2;
+    cursor: pointer;
+    &:hover{
+      opacity: 0.5;
+    }
+  }
+
+  .slider_right {
+    background-image: url( assets/projects/theyalow/assets/images/right_slider.svg);
+    background-size: cover;
+    padding: 0;
+    border: 0;
+    width: 5%;
+    height: 15%;
+    margin: 0 2.5%;
+    z-index:2;
+    cursor: pointer;
+    &:hover{
+      opacity: 0.5;
+    }
+  }
+  .slider{
+    position: relative;
+    left: -100%;
+    z-index: 0;
+    display: flex;
+    width: 400%;
+    height: 100%;
+  }
+   .slider_animated{
+     transition: left 1s;
+   }
+  .projects_content {
+    overflow: hidden;
+    width: 80%;
+    height: 100%;
+  }
+
+  .project {
+    width: 25%;
+    display: flex;
+    overflow: hidden;
+  }
+  .description_expand_button {
+    display: none;
+  }
+  .project_description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    &--hint{
+      width: 35%;
+      align-self: center;
+      &::after{
+        content: "\3e";
+      }
+    }
+  }
+  .project--header{
+    width: 50%;
+  }
+  .project--image {
+    &.mobile {
+      display: none;
+    }
+
+    width: 50%;
+    & img {
+      width: 100%;
+
+    }
+  }
+
+  section {
+    margin: 10px 50px;
+    padding: 20px;
+    font-size: 22px;
+    font-family: "Helvetica", "Georgia", "sans-serif";
+    line-height: 30px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+  }
+
+  @media (max-width:680px){
+    body {
+      width: 100%;
+      margin: 0;
+    }
+    .header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      h2 {
+        text-align: center;
+      }
+    }
+    section {
+      width: 100%;
+      margin: 0;
+      border: 0;
+      background: #f5f3eb;
+      border-radius: 0;
+    }
+    .description_expand_button{
+      display: block;
+      width: 15%;
+      height: 5%;
+      position: relative;
+      top: 5%;
+      left: 80%;
+      background: #d4e7e6;
+      border: 0;
+    }
+    .project{
+      flex-direction: column;
+    }
+    .project_description{
+      display: none;
+      &--hint{ display: none;
+      }
+    }
+    .expanded{
+      display: block;
+    }
+    .project--image{
+       width: 100%;
+    }
+    .slider_left,
+    .slider_right{
+      display: none;
+    }
+    .projects_content{
+      width: 100%;
+    }
+    .project--image{
+      &.desktop{
+        display: none;
+      }
+      &.mobile{
+        display: block;
+      }
+    }
+  }

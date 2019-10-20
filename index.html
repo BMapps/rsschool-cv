@@ -4,29 +4,111 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
-  <header>
+  <header class="header">
     <img class="my-photo" src="https://imgur.com/FvFnNwB.png"  alt="MyPhoto" width="400" height="351">
-    <h1 class="name"> Mykhailo Bezditnyi</h1>
+    <div>
+      <h1 class="name"> Mykhailo Bezditnyi</h1>
+      <h2><a href="https://github.com/BMapps">GitHub</a></h2>
+      <h2><a href="https://www.linkedin.com/in/mykhailo-bezditnyi-44a413145/">LinkedIn</a></h2>
+    </div>
   </header>
-  <nav>
-    <ul>
-      <li><a href="#contact-info">Contact info</a></li>
-      <li><a href="#summary">Summary/Soft skills</a></li>
-      <li><a href="#hard-skills">Hard skills</a></li>
-      <li><a href="#code-examples">Code Examples</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#english">English</a></li>
-    </ul>
-  </nav>
-
   <main>
-    <section id="contact-info">
+
+    <section class="education">
+      <button class="expand--button" type="button">Education</button>
+      <div class="education_content">
+        <ul>
+          <li>School  2002-2013</li>
+          <li>Vinnytsia National Technical University  2013-2019
+              <ul class="without-points">
+                <li>Faculty of Automation and computer integration technology</li>
+                <li>Masters Degree in System Engineering</li>
+              </ul></li>
+          <li>RS School 2019-2020</li>
+          <li><h3>Courses</h3>
+            <ul>
+              <li>Codeacademy</li>
+              <li>Htmlacademy</li>
+              <li>Educational courses within Jabil Ukraine:
+                <ul>
+                  <li>English lessons</li>
+                  <li>Team work/ Team leading</li>
+                  <li>Oratory skills</li>
+                  <li>Lean Six Sigma Bronze Certification</li>
+                </ul>
+              </li>
+            </ul></li>
+        </ul>
+      </div>
+    </section>
+    <section class="section_projects">
+      <button class="slider_left"></button>
+      <div class="projects_content">
+      <div class="slider">
+        <div class="project first-prev-project">
+            <button class="description_expand_button">Description</button>
+            <div class="project_description">
+          <h3 class="project--header">IC "REPAIR-DESIGN-PROJECT"</h3>
+          <ul class="project_description--list">
+            <li class="project_description--item">Responsive</li>
+            <li class="project_description--item">SVG</li>
+            <li class="project_description--item">Desktop+Mobile</li>
+          </ul>
+          <h4 class="project_description--hint">Tap on image to see the project </h4>
+        </div>
+          <a class="project--image"><img src="assets/images/Slice 12.png" alt="" ></a>
+        </div>
+        <div class="project first-project">
+            <button class="description_expand_button">Description</button>
+            <div class="project_description">
+            <h3 class="project--header">THEYALOW</h3>
+            <ul class="project_description--list">
+              <li class="project_description--item">Pixel clone</li>
+              <li class="project_description--item">SVG</li>
+              <li class="project_description--item">Desktop+Mobile</li>
+            </ul>
+            <h4 class="project_description--hint">Tap on image to see the project </h4>
+          </div>
+            <a class="project--image desktop" href="assets/projects/theyalow/index.html"><img src="assets/images/THEYALOW Desktop.jpg" alt="THEYALOW" ></a>
+            <a class="project--image mobile" href="assets/projects/theyalow/index-mobile.html"><img src="assets/images/THEYALOW Desktop.jpg" alt="THEYALOW" ></a>
+        </div>
+        <div class="project second-project">
+            <button class="description_expand_button">Description</button>
+            <div class="project_description">
+            <h3 class="project--header">IC "REPAIR-DESIGN-PROJECT"</h3>
+            <ul class="project_description--list">
+              <li class="project_description--item">Responsive</li>
+              <li class="project_description--item">SVG</li>
+              <li class="project_description--item">Desktop+Mobile</li>
+            </ul>
+            <h4 class="project_description--hint">Tap on image to see the project </h4>
+          </div>
+          <a class="project--image desktop" href="assets/projects/repair-design-project/index.html"><img src="assets/images/Slice 12.png" alt="IC" ></a>
+            <a class="project--image mobile" href="assets/projects/repair-design-project/index-mobile.html"><img src="assets/images/Slice 12.png" alt="IC" ></a>
+        </div>
+        <div class="project last-next-project">
+          <button class="description_expand_button">Description</button>
+          <div class="project_description">
+            <h3 class="project--header">THEYALOW</h3>
+            <ul class="project_description--list">
+              <li class="project_description--item">Pixel clone</li>
+              <li class="project_description--item">SVG</li>
+              <li class="project_description--item">Desktop+Mobile</li>
+            </ul>
+            <h4 class="project_description--hint">Tap on image to see the project </h4>
+          </div>
+            <a class="project--image" href="assets/projects/theyalow/index.html"><img src="assets/images/THEYALOW Desktop.jpg" alt="THEYALOW" ></a>
+        </div>
+      </div>
+    </div>
+      <button class="slider_right"></button>
+    </section>
+    <!-- <section id="contact-info">
       <h2 >Contact info</h2>
       <div>
         <ul>
@@ -119,8 +201,8 @@
             evening meetings in restaurant(some non-formal themes).</li>
         </ul>
       </div>
-    </section>
+    </section> -->
   </main>
-
+  <script src="index.js"></script>
 </body>
 </html>

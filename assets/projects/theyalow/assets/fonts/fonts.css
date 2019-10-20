@@ -1,0 +1,105 @@
+@font-face {
+
+	font-family: 'Segoe WP';
+ 
+	src: url("SegoeWPLight.ttf")
+	format('truetype');
+	font-weight: 300
+;
+
+}
+
+@font-face {
+
+	font-family: 'Segoe WP';
+ 
+	src: url('SegoeWP.ttf') 
+	format('truetype');
+	font-weight: 400
+;
+
+}
+
+@font-face {
+
+	font-family: 'Lucida Sans';
+ 
+	src: url('Lucida Sans Italic.ttf') 
+	format('truetype');
+	font-weight: 400
+;
+	font-style: italic;
+
+}
+
+@font-face {
+
+	font-family: 'Asap';
+ 
+	src: url('Asap-Regular.ttf') 
+	format('truetype');
+	font-weight: 400
+;
+}
+
+@font-face {
+
+	font-family: 'Segoe UI';
+ 
+	src: url('SegoeUI-Light.ttf') 
+	format('truetype');
+	font-weight: 300
+;
+}
+
+@font-face {
+
+	font-family: 'PT Sans';
+ 
+	src: url('PTSans-Regular.ttf') 
+	format('truetype');
+	font-weight: 400
+;
+}
+
+@font-face {
+
+	font-family: 'Segoe UI';
+ 
+	src: url('SegoeUIBold.ttf') 
+	format('truetype');
+	font-weight: 700
+;
+}
+
+@font-face {
+
+	font-family: 'Segoe UI';
+ 
+	src: url('SegoeUI.ttf') 
+	format('truetype');
+	font-weight: 400
+;
+}
+
+@font-face {
+
+	font-family: 'PT Sans Narrow';
+ 
+	src: url('PTSansNarrowBold.ttf') 
+	format('truetype');
+	font-weight: 700
+;
+}
+
+@font-face {
+
+	font-family: 'Open Sans';
+ 
+	src: url('OpenSans-Regular.ttf') 
+	format('truetype');
+	font-weight: 400
+;
+}
+
+
